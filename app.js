@@ -55,7 +55,7 @@ formNavItem.forEach((navItem, index) => {
 
 // Sélectionne la case à cocher et le champ de code de recharge
 const codeRechargeToggle = document.getElementById("code-recharge-toggle");
-const codeRechargeField = document.getElementById("code");
+const codeRechargeField = document.getElementById("code1");
 
 // Ajoute un événement de changement à la case à cocher
 codeRechargeToggle.addEventListener("change", function () {
